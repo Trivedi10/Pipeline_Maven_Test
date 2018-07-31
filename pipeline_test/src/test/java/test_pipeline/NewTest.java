@@ -31,7 +31,7 @@ public class NewTest {
   {
 	  System.setProperty("webdriver.gecko.driver","E:\\geckodriver.exe");
 		driver=new FirefoxDriver();
-		driver.get("http://ec2-18-218-196-66.us-east-2.compute.amazonaws.com:8090/TestWebapp/");
+		driver.get("http://18.188.57.110:8090/TestWebapp/");
 		
   }
 
